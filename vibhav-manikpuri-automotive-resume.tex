@@ -1,0 +1,99 @@
+\documentclass[9pt,a4paper]{extarticle}
+
+% ATS-FRIENDLY AUTOMOTIVE RESUME
+% Candidate: Vibhav Manikpuri | Target: Maruti Suzuki / Automotive R&D Internship
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=0.42in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+
+\definecolor{sectionblue}{RGB}{20,49,86}
+\pagestyle{empty}
+\raggedright
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.05em, itemsep=0.15pt, topsep=0.6pt, parsep=0pt, partopsep=0pt}
+\renewcommand\labelitemi{\textbullet}
+
+\titleformat{\section}{\vspace{-5pt}\normalsize\bfseries\color{sectionblue}}{}{0em}{}[\color{sectionblue}\titlerule\vspace{-6pt}]
+
+\newcommand{\resumeSubheading}[4]{\vspace{1pt}\textbf{#1} \hfill \textbf{#2}\\[-2pt]\textit{#3} \hfill \textit{#4}\vspace{-2pt}}
+\newcommand{\resumeProject}[3]{\vspace{1pt}\textbf{#1} \hfill \textbf{#2}\\[-2pt]\textit{#3}\vspace{-3pt}}
+\newcommand{\skillcategory}[2]{\textbf{#1:} #2\\[-2pt]}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{VIBHAV MANIKPURI}}\\[1pt]
+    {\normalsize \textbf{Formula Student Vehicle Dynamics Engineer | Automotive Design Intern}}\\[1pt]
+    Jabalpur, Madhya Pradesh, India \;|\; +91-9302752982 \;|\; \href{mailto:23bme070@iiitdmj.ac.in}{23bme070@iiitdmj.ac.in} \\
+    \href{https://www.linkedin.com/in/vibhav-manikpuri-7a01192a2/}{LinkedIn} \;|\; \href{https://github.com/vibhavmanikpuri12-dev}{GitHub} \;|\; \href{https://github.com/vibhavmanikpuri12-dev/formula-student-vehicle-dynamics-portfolio}{Formula Student Portfolio}
+\end{center}
+\vspace{-9pt}
+
+\section*{Professional Summary}
+Final-year Mechanical Engineering undergraduate at PDPM IIITDM Jabalpur with hands-on Formula Student experience in vehicle dynamics, chassis subsystem design, CAD, CAE validation, manufacturing, and race-car integration. Worked on suspension, steering, hydraulic braking, upright, and wheel hub development using analytical calculations, SolidWorks, ANSYS Workbench, and engineering spreadsheets. Seeking an automotive internship in R\&D, product development, chassis design, vehicle testing, manufacturing engineering, or CAE.
+
+\section*{Engineering Competencies}
+\skillcategory{Vehicle Dynamics}{Suspension geometry, steering geometry, Ackermann calculation, brake system design, load transfer, roll center, ride rate, wheel rate, roll stiffness, vehicle packaging}
+\skillcategory{CAD/CAE}{SolidWorks, CATIA V5, AutoCAD, ANSYS Workbench, static structural analysis, von Mises stress, deformation, factor of safety, fatigue, steady-state and transient thermal analysis}
+\skillcategory{Manufacturing/Tools}{DFM, machining, welding coordination, grinding, sheet-metal work, assembly, fitment checks, troubleshooting, MS Excel, MATLAB, Python, C}
+
+\section*{Automotive Engineering Experience}
+\resumeSubheading{IIITDMJ Racing Formula Student Team - SAEINDIA SUPRA 2025}{2024 -- 2025}{Vehicle Dynamics Team Member, Cost Lead and Driver}{PDPM IIITDM Jabalpur}
+\begin{itemize}
+    \item Contributed to the end-to-end vehicle dynamics package of a Formula Student race car covering suspension, steering, hydraulic braking, upright, wheel hub, manufacturing, assembly, validation, and competition preparation.
+    \item Converted analytical calculations and packaging constraints into manufacturable SolidWorks CAD models for steering, brake, upright, wheel hub, and suspension-related components.
+    \item Supported fabrication and subsystem integration through machining coordination, grinding, welding support, fitment checks, assembly troubleshooting, and race-car preparation.
+    \item Participated as driver and technical member, connecting vehicle-level feedback with steering, braking, and suspension design decisions during testing and competition preparation.
+\end{itemize}
+
+\section*{Selected Automotive Projects}
+\resumeProject{Formula Student Suspension Geometry and Vehicle Dynamics Calculations}{Vehicle Dynamics}{Excel, analytical calculations, SolidWorks, manufacturing support}
+\begin{itemize}
+    \item Built a suspension calculation workflow for a 250 kg Formula Student vehicle using 1550 mm wheelbase, 1350/1250 mm front/rear track widths, 310 mm CG height, 45:55 weight distribution, and 1.5g lateral acceleration target.
+    \item Calculated sprung/unsprung load distribution, vertical load transfer, rolling moment, ride rate, wheel rate, spring rate, sag, travel, roll center targets, ride frequency targets, and roll stiffness distribution.
+\end{itemize}
+
+\resumeProject{Formula Student Steering System Design}{Steering Kinematics}{Ackermann calculations, SolidWorks, manufacturing}
+\begin{itemize}
+    \item Designed steering geometry using Ackermann principles while balancing turning radius, tie-rod packaging, steering arm placement, chassis constraints, and manufacturability.
+    \item Developed CAD models for steering components, coordinated manufacturing and assembly, and documented calculation steps, geometry references, component images, and validation notes.
+\end{itemize}
+
+\resumeProject{Formula Student Hydraulic Braking System}{Brake Design and CAE}{SolidWorks, ANSYS Workbench, thermal and structural FEA}
+\begin{itemize}
+    \item Engineered a hydraulic braking system for a 250 kg Formula Student vehicle by calculating static/dynamic weight transfer, required deceleration, braking force, brake torque, pedal ratio, master-cylinder pressure, and caliper clamping force.
+    \item Sized and analyzed a 160 mm diameter, 3 mm thick SS410 brake rotor with 80 mm PCD; calculated 1:3 pedal ratio, 1500 N master-cylinder force, 5.26 MPa hydraulic pressure, and 3.81 kN clamping force.
+    \item Performed ANSYS static structural, steady-state thermal, transient thermal, and brake pedal analyses to validate rotor safety, deformation, heat distribution, and pedal stiffness.
+\end{itemize}
+
+\resumeProject{Formula Student Upright and Wheel Hub Design}{Mechanical Design and CAE}{SolidWorks, ANSYS Workbench, fatigue analysis}
+\begin{itemize}
+    \item Designed front and rear uprights and wheel hubs considering suspension hard points, bearing fitment, brake mounting, wheel mounting, steering constraints, and manufacturability.
+    \item Validated front hub, rear hub, front upright, and rear upright designs using ANSYS equivalent stress, total deformation, factor of safety, and fatigue analysis reports before manufacturing and integration.
+\end{itemize}
+
+\section*{Engineering Portfolio and GitHub}
+\begin{itemize}
+    \item Built a GitHub-ready Formula Student Vehicle Dynamics portfolio to organize subsystem calculations, CAD/CAE reports, manufacturing documentation, competition photographs, and resume evidence for recruiter review.
+\end{itemize}
+
+\section*{Education}
+\resumeSubheading{PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur}{2023 -- 2027}{B.Tech in Mechanical Engineering}{Jabalpur, Madhya Pradesh}
+
+\section*{Leadership and Achievements}
+\begin{itemize}
+    \item Vehicle Dynamics Cost Lead and active driver for SAEINDIA SUPRA 2025 Formula Student race-car development.
+    \item Finalist, MP Government Hackathon - HACK \& MAKE 2025; contributed to engineering logic, cost modeling, scalability, and deployment planning.
+    \item Additional projects: Exoskeleton Arm mechanical design in SolidWorks with servo actuation; AI-assisted Smart Irrigation System integrating sensors, actuators, and control logic.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# CAD/CAE temporary files
+*.bak
+*.tmp
+*.lock
+*.lck
+
+# Large raw videos - upload via Git LFS or external link if needed
+*.mov
+*.mp4
+*.avi
